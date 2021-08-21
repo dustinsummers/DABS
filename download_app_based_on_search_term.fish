@@ -2,7 +2,7 @@
 function download_app_based_on_search_term --description 'Download application package based on search term'
   # Fail if no arguments provided
   if not count `$argv > /dev/null
-    echo "No arguments provided -- example download_binaries -d <device> -s 'MovieApp'"
+    echo -e "No arguments provided\n -- example download_binaries -d <device> -s 'MovieApp'"
     return 1
   end
 
